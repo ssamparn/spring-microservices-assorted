@@ -16,6 +16,7 @@ public class ProductViewCount implements Persistable<Integer> {
 
     @Id
     private Integer id;
+
     private Long count;
 
     @Transient
